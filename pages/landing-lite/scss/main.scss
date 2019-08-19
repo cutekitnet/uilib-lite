@@ -1,0 +1,101 @@
+/* sample style */
+
+
+$medium-up: 768px;
+$large-up: 992px;
+// condensed
+$titleFont : "Jost*",
+"Ostrich Sans",
+"Roboto Condensed",
+"Oswald",
+sans-serif;
+$titleFont : "Proxima Nova",
+"Montserrat",
+"Noto Sans",
+"Roboto Condensed",
+"Oswald",
+sans-serif;
+// $titleFont : "Bebas Neue","Ostrich Sans","Roboto Condensed",  "Oswald",  sans-serif;
+
+body {
+    color: #515151;
+}
+
+.title-font {
+    font-family: $titleFont;
+}
+
+.fs-4 {
+    font-size: 3.5rem !important;
+    line-height: 1.1;
+    font-family: $titleFont;
+    font-weight: 100;
+}
+
+.icon-img-size {
+    font-size: 12rem;
+}
+
+.btn {
+    padding: 0.75em 2em;
+}
+
+.navbar-a .nav-menu .nav-item,
+.navbar-a .nav-menu li {
+    margin-left: 0rem;
+    margin-right: 0rem;
+
+    @media screen and (min-width: $large-up) {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
+
+.navbar-a .navbar-group .navbar-collapse {
+    align-items: center;
+    text-align: center;
+}
+
+.navbar-brand {
+    .text {
+        .main {
+            font-weight: bold;
+            line-height: 1.1;
+        }
+    }
+}
+
+@media screen and (min-width: $large-up) {
+    .ht-2 {
+        font-size: 5rem !important;
+        line-height: 1.1;
+    }
+
+    .ht-4 {
+        font-size: 3rem !important;
+    }
+}
+
+.bg-pricing-0 {
+    background: rgba(white, 0.1);
+}
+.item-pricing {
+    margin-bottom: 1rem;
+
+    @media screen and (min-width: $large-up) {
+        margin-bottom: 0;
+    }
+}
+
+.input-group-a:active,
+.input-group-a:focus-within,
+.input-group-a:focus {
+    background: rgba(white, 0.0);
+    color: inherit;
+}
+
+/* adjust section padding with triangle decoration */
+.section-page-a .section-body {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
